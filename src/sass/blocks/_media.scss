@@ -1,9 +1,10 @@
 @media (max-width: 991px) {
     .promo {
         min-height: 550px;
-        .container {
+        /* .container {
             width: 750px;
-        }
+            margin: 0 auto;
+        } */
         .header {
             &__logo img {
                 width: 90%;
@@ -52,4 +53,74 @@
     }
 }
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .promo {
+        min-height: 520px;
+        .header {
+            &__official span {
+                font-size: 13px;
+            }
+        }
+        &__header {
+            font-size: 32px;
+        }
+        &__subheader {
+            font-size: 20px;
+        }
+        &__link {
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    }
+    .button {
+        &_main {
+            width: 250px;
+            height: 40px;
+            font-size: 15px;
+        }
+    }
+    .advantages {
+        min-height: 880px;
+        &__icons {
+            display: block;
+        }
+        &__icon {
+            margin: 0 auto;
+            width: 350px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .promo {
+        .header__official span {
+            font-size: 10px;
+        }
+    }
+}
+
+@media (max-width: 478px) {
+    .promo {
+        .header__logo {
+            display: none;
+        }
+        &__header {
+            font-size: 24px;
+        }
+        &__subheader {
+            font-size: 13px;
+        }
+        &__icons {
+            width: 292px;
+        }
+    }
+    .advantages {
+        min-height: 970px;
+        &__title {
+            font-size: 24px;
+        }
+        &__icon {
+            width: 270px;
+        }
+    }
+}
