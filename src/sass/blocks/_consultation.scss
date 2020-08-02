@@ -10,4 +10,16 @@
         padding-top: 79px;
         margin: 0;
     }
+    .error {
+        border: 2px solid $main-color;
+    }
+    label.error {
+        border: none;
+        color: $main-color;
+        font-size: 12px;
+        text-align: center;
+        font-weight: 500;
+        margin-top: -15px;
+        margin-bottom: 15px;
+    }
 }
