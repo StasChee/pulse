@@ -111,6 +111,22 @@
             margin: 40px 0;
         }
     }
+    .footer {
+        &__info {
+            width: 350px;
+            height: 230px;
+            padding: 30px 68px 28px 68px;
+        }
+        &__addr {
+            margin-bottom: 28px;
+        }
+        &__phone {
+            margin-bottom: 28px;
+        }
+        &__social-item {
+            margin: 0px 10px;
+        }
+    }
 }
 
 @media (max-width: 811px) {
@@ -194,6 +210,28 @@
             img {
                 width: 20px;
                 height: 33px;
+            }
+        }
+    }
+    .footer {
+        &__info {
+            width: 290px;
+            height: 220px;
+            padding: 30px 40px 28px 40px;
+        }
+        &__addr {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        &__phone {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+        &__social-item {
+            width: 46px;
+            height: 46px;
+            img {
+                height: 23px;
             }
         }
     }
